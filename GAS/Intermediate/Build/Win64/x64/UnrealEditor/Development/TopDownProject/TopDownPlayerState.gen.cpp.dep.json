@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownproject\\uht\\topdownplayerstate.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\x64\\topdownprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\topdownproject\\definitions.topdownproject.h",
+            "d:\\uegus\\myproject\\gas\\source\\topdownproject\\topdownplayerstate.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
+            "d:\\epic games\\ue_5.4\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
+            "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownproject\\uht\\topdownplayerstate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

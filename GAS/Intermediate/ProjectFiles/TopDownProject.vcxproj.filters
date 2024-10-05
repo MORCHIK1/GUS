@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TopDownProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDownProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TopDownProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TopDownProject">
+      <UniqueIdentifier>{D6CAC373-5380-379C-ACAE-944FD484716D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TopDownProject\AbilityInputSubsystem.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\AbilityInputSubsystem.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TestAttributeSet.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TestAttributeSet.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownAttributeSet.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownAttributeSet.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownPlayerState.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownPlayerState.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TopDownProject\TopDownProject.Build.cs">
+      <Filter>Source\TopDownProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownProject.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownProject.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownProjectCharacter.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownProjectCharacter.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownProjectGameMode.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownProjectGameMode.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\TopDownProjectPlayerController.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\TopDownProjectPlayerController.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

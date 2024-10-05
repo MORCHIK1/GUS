@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownproject\\uht\\topdownprojectgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\x64\\topdownprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\topdownproject\\definitions.topdownproject.h",
+            "d:\\uegus\\myproject\\gas\\source\\topdownproject\\topdownprojectgamemode.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\uegus\\myproject\\gas\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownproject\\uht\\topdownprojectgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
