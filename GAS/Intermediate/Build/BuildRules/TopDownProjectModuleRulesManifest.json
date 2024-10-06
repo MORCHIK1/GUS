@@ -1,6 +1,8 @@
 {
 	"SourceFiles": [
 		"D:\\UEgus\\Myproject\\GAS\\Source\\TopDownProject\\TopDownProject.Build.cs",
+		"D:\\UEgus\\Myproject\\GAS\\Plugins\\GameplayMessageRouter\\Source\\GameplayMessageNodes\\GameplayMessageNodes.Build.cs",
+		"D:\\UEgus\\Myproject\\GAS\\Plugins\\GameplayMessageRouter\\Source\\GameplayMessageRuntime\\GameplayMessageRuntime.Build.cs",
 		"D:\\UEgus\\Myproject\\GAS\\Source\\TopDownProject.Target.cs",
 		"D:\\UEgus\\Myproject\\GAS\\Source\\TopDownProjectEditor.Target.cs"
 	],
