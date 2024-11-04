@@ -11,6 +11,8 @@
     <None Include="..\..\Source\TopDownProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +31,75 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter">
+      <UniqueIdentifier>{9D7281A3-00CF-37CE-AB96-C65F44BCD644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source">
+      <UniqueIdentifier>{AD63915F-3CDB-3083-840D-0F0A56F9C437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes">
+      <UniqueIdentifier>{8EBD47BD-95D7-305A-AE63-699A8AE0F4BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\GameplayMessageNodes.Build.cs">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private">
+      <UniqueIdentifier>{2AC0EA5E-EA15-3827-AF1D-E4E135289270}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private\GameplayMessageNodesModule.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private\K2Node_AsyncAction_ListenForGameplayMessages.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public">
+      <UniqueIdentifier>{3B246B6A-8BBA-37C4-AFEE-E8B17D62C832}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public\K2Node_AsyncAction_ListenForGameplayMessages.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\GameplayMessageRouter\GameplayMessageRouter.uplugin">
+      <Filter>Plugins\GameplayMessageRouter</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime">
+      <UniqueIdentifier>{3801EBE5-749A-3CE3-ADEE-3AA54924F5F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\GameplayMessageRuntime.Build.cs">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private">
+      <UniqueIdentifier>{1392D215-555C-3BEE-A3A6-F4EBA97AD3C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework">
+      <UniqueIdentifier>{194EFB08-7285-3F27-BCC4-98CE90DAA6A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\AsyncAction_ListenForGameplayMessage.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\GameplayMessageRuntime.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\GameplayMessageSubsystem.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public">
+      <UniqueIdentifier>{97B6F166-C7DD-36D9-AAB3-083BD76DDE0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework">
+      <UniqueIdentifier>{48EFE913-C5C3-3058-B3DA-C4B7C5844910}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\AsyncAction_ListenForGameplayMessage.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\GameplayMessageSubsystem.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\GameplayMessageTypes2.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
     <Filter Include="Source\TopDownProject">
       <UniqueIdentifier>{D6CAC373-5380-379C-ACAE-944FD484716D}</UniqueIdentifier>
     </Filter>
@@ -36,6 +107,12 @@
       <Filter>Source\TopDownProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TopDownProject\AbilityInputSubsystem.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\DamageAttributeSet.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\DamageAttributeSet.h">
       <Filter>Source\TopDownProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TopDownProject\TestAttributeSet.cpp">
@@ -81,6 +158,12 @@
       <Filter>Source\TopDownProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TopDownProject\TopDownProjectPlayerController.h">
+      <Filter>Source\TopDownProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownProject\VitalAttributeSet.cpp">
+      <Filter>Source\TopDownProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownProject\VitalAttributeSet.h">
       <Filter>Source\TopDownProject</Filter>
     </ClInclude>
   </ItemGroup>
