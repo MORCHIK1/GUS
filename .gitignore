@@ -49,7 +49,6 @@ SourceArt/**/*.tga
 GAS/Binaries/*
 GAS/Plugins/*/Binaries/*
 
-
 # Builds
 Build/*
 
@@ -70,6 +69,7 @@ GAS/Saved/*
 # Compiled source files for the engine to use
 GAS/Intermediate/*
 GAS/Plugins/*/Intermediate/*
+GAS/Content/Kobo_Dungeon
 
 # Cache files for the editor to use
 GAS/DerivedDataCache/*
